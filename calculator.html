@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculator</title>
+    <link rel="stylesheet" type="text/css" href="calculator.css">
+    
+</head>
+<body>
+    <div class="container">
+        <div class="heading">
+            <h1 id="heading">Calculator</h1>
+        </div>
+        <div class="calculator">
+<!--          <input type="text" name="screen" id="screen"> -->
+             <div id="display">  </div>
+        <table>
+            <tr>
+            
+                <td><button type="button" class="btn"  value="empty">AC</button></td>
+                 <td><button type="button" class="btn" value="pm">+/-</button></td>
+                 <td><button type="button" class="btn" value="%">%</button></td>
+                 <td><button type="button" class="btn" id="color" value="/">/</button></td>
+            </tr>
+            
+             <tr>
+            
+                <td><button type="button" class="btn" value="7">7</button></td>
+                 <td><button type="button" class="btn" value="8">8</button></td>
+                 <td><button type="button" class="btn" value="9">9</button></td>
+                 <td><button type="button" class="btn" id="color" value="*">*</button></td>
+            </tr>
+            
+             <tr>
+            
+                <td><button type="button" class="btn" value="4">4</button></td>
+                 <td><button type="button" class="btn" value="5">5</button></td>
+                 <td><button type="button" class="btn" value="6">6</button></td>
+                 <td><button type="button" class="btn" id="color" value="-">-</button></td>
+            </tr>
+            
+             <tr>
+            
+                <td><button type="button" class="btn" value="1">1</button></td>
+                 <td><button type="button" class="btn" value="2">2</button></td>
+                 <td><button type="button" class="btn" value="3">3</button></td>
+                 <td><button type="button" class="btn" id="color" value="+">+</button></td>
+            </tr>
+            
+             <tr>
+            
+                <td colspan="2" type="button" class="btn" value="0">0</td>
+                 <td><button type="button" class="btn" value=".">.</button></td>
+                 <td id="equal"><button type="button" class="btn" id="color" value="=">=</button></td>
+            </tr>
+            
+            
+        </table>
+           
+    </div>
+        
+    <script type="text/javascript" src="calculator.js">
+        // document.getElementById('display').innerHTML="0";
+    </script>
+</body>
+</html>
